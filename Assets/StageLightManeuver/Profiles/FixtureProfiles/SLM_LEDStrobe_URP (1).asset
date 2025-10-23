@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf03fac15989554f9d86f1f5de217d0, type: 3}
+  m_Name: SLM_LEDStrobe_URP (1)
+  m_EditorClassIdentifier: 
+  serializedChannels:
+  - '{"channelType":"StageLightManeuver.LightChannel","fieldInfo":{"m_Keys":["intensityMultiplier","limitIntensityMin","limitIntensityMax","limitInnerSpotAngleMin","limitInnerSpotAngleMax","limitSpotAngleMin","limitSpotAngleMax","limitSpotRangeMin","limitSpotRangeMax","syncColorToIntensity","autoSpotRangeZeroOnIntensityZero","syncIntensityRangeMin","syncIntensityRangeMax","fallOffMode"],"m_Values":["1","0","10000","130","130","180","180","1","1","False","True","0","20","{\"value__\":0}"]}}'
+  - '{"channelType":"StageLightManeuver.SyncLightMaterialChannel","fieldInfo":{"m_Keys":["materialPropertyName","maxIntensityLimit","materialIndex","brightnessDecreasesToBlack"],"m_Values":["_EmissionColor","3","0","True"]}}'
+  - '{"channelType":"StageLightManeuver.SyncLensFlareChannel","fieldInfo":{"m_Keys":["maxIntensityLimit","brightnessDecreasesToBlack"],"m_Values":["3","True"]}}'
